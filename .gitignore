@@ -14,4 +14,10 @@ sites/*/private
 [Tt]humbs.db
 *.DS_Store
 *.tgz
+=======
+
+#other stuff
+*.gz
+*.tgz
+*.zip
 *.sql

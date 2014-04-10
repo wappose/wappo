@@ -1,64 +1,80 @@
-/**
- * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
- * remove this comment and start adding your styles to this file.
- */
-/**
-*Colors:
-* Yellow: #ffcb04
-* Green: #a6ce38
-* Blue: #00a1e4
-* Purple: #c657a0
-* Red: #ed1c24
-*/
-body {
+body, h1, h2, h3, p {
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #3B3B3B;
 
 }
-
-a {
-  color: #00a1e4;
+h1, h2, h3 {
+  font-weight: normal;
+  text-transform: uppercase;  
 }
-
-header#navbar {
-  background-color: transparent;
-  border: 0;
+h1 {
+  font-size: 40px;
+  margin: 0 0 10px;
 }
-header#navbar a.logo img {
-  border: 0;
+body.front h1 {
+    text-align: center;
 }
-header#navbar nav {
-  float: right; 
-  margin-top: 15px;
+p {
+  line-height: 1.2;
 }
-
-header#navbar .navbar-nav li > a {
-  font-family: none;
-  font-size: 24px;
-  padding: 10px 20px;
-  border-right: 1px solid #cccccc;
-} 
-header#navbar .navbar-nav li.last > a {
-  border-right: none;
-} 
-
-header#navbar .navbar-nav > .active > a, 
-header#navbar .navbar-nav > .active > a:hover, 
-header#navbar .navbar-nav > .active > a:focus {
-  background-color: transparent;
-  color: #222222;
+header.header,
+div.main-container,
+footer
+{
+  margin: 20px auto;
+  max-width: 740px;
+  width: 100%;
 }
-
-@media (max-width: 767px) {
-  header#navbar nav {
-    float: none; 
-  }
+header.header {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #999999;  
 }
-
-.main-container {
+div.main-container {
+  margin-top: 0;
+  max-width: 740px;
+  border-bottom: 1px solid #999999;
+}
+body.front div.main-container div.content div.node .field-name-field-image {
+  text-align: center;
+}
+body.front div.main-container div.content div.node {
   padding-top: 20px;
-  padding-bottom: 20px;
+  border-top: 1px solid #999999;
 }
 
-.footer {
-  background-color: #E5E5E5;
+footer {
+  text-align: center;
+}
+header.header ul.menu {
+  display: inline-block;
   margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+header.header ul.menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;  
+  height: auto;
+  overflow: hidden;
+  list-style-type: none;
+}
+header.header ul.menu li a {
+  font-family: Georgia, "Times New Roman";
+  font-size: 14px;
+  line-height: 22px;
+  text-rendering: optimizelegibility;
+  color: #222222;
+  margin: 0;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: block;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  border: 0 none;
 }
