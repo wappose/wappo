@@ -19,11 +19,12 @@ body, h1, h2, h3, p {
 h1, h2, h3 {
   font-family: "axion_rndregular", "Georgia","Times New Roman","Times","serif";
   font-weight: normal;
-  text-transform: uppercase;  
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 h1 {
   font-size: 40px;
-  margin: 0 0 10px;
+  margin: 0 0 20px;
 }
 body.front h1 {
     text-align: center;
@@ -42,7 +43,7 @@ footer
 header.header {
   text-align: center;
   margin-bottom: 20px;
-  border-bottom: 1px solid #999999;  
+  border-bottom: 1px solid #999999;
 }
 div.main-container {
   margin-top: 0;
@@ -69,7 +70,7 @@ header.header ul.menu {
 header.header ul.menu li {
   display: inline-block;
   margin: 0;
-  padding: 0;  
+  padding: 0;
   height: auto;
   overflow: hidden;
   list-style-type: none;
