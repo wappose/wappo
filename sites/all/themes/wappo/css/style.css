@@ -17,12 +17,12 @@ body, h1, h2, h3, p {
 
 }
 h1, h2, h3 {
-  font-family: "axion_rndregular", "Georgia","Times New Roman","Times","serif";
   font-weight: normal;
   text-transform: uppercase;
-  line-height: 1.2;
 }
 h1 {
+  font-family: "axion_rndregular", "Georgia","Times New Roman","Times","serif";
+  line-height: 1.2;
   font-size: 40px;
   margin: 0 0 20px;
 }
