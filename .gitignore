@@ -4,6 +4,7 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+<<<<<<< HEAD
 
 #Ignore Eclipse stuff
 .buildpath
@@ -21,3 +22,5 @@ sites/*/private
 *.tgz
 *.zip
 *.sql
+=======
+>>>>>>> dev
