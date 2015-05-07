@@ -4,23 +4,3 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-<<<<<<< HEAD
-
-#Ignore Eclipse stuff
-.buildpath
-.project
-/.settings
-
-#Ignore crap
-[Tt]humbs.db
-*.DS_Store
-*.tgz
-=======
-
-#other stuff
-*.gz
-*.tgz
-*.zip
-*.sql
-=======
->>>>>>> dev
