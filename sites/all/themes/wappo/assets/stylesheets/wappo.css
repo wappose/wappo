@@ -8836,8 +8836,9 @@ button.close {
   font-family: 'Droid Sans', sans-serif;
   color: #3B3B3B;
   font-size: 12pt;
+  line-height: normal;
 }
-/* line 30, ../../src/sass/_types.scss */
+/* line 32, ../../src/sass/_types.scss */
 #header-container img,
 #main-container img,
 #footer-container img {
