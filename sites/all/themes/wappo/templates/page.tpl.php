@@ -4,7 +4,7 @@ if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
 <header id="header-container" role="heading" class="container header">
   <div class="row">
     <?php if (!empty($logo) || !empty($site_name)): $navCols = 8; ?>
-    <div class="col-md-4">
+    <div class="col-sm-4">
 
     <?php if (!empty($logo)) : ?>
     <a class="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
@@ -21,7 +21,7 @@ if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
 
     <?php
     if (!empty($navigation)): ?>
-    <div class="col-md-<?php echo $navCols; ?>">
+    <div class="col-sm-<?php echo $navCols; ?>">
       <nav role="navigation" class="navbar navbar-wappo">
         <div class="container-fluid">
         <div class="navbar-header">
