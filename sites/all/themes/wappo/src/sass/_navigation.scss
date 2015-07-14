@@ -1,0 +1,10 @@
+.navbar-wappo {
+    @extend .navbar-default;
+    border: 0;
+    background: transparent;
+
+    ul.menu {
+        @extend .nav;
+        @extend .navbar-nav;
+    }
+}
