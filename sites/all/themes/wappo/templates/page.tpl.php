@@ -1,6 +1,6 @@
 <?php
 $navigation = render($page['navigation']);
-if (!empty($navigation)): ?>
+if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
 <header id="header-container" role="heading" class="container header">
   <div class="row">
     <?php if (!empty($logo) || !empty($site_name)): $navCols = 8; ?>
