@@ -24,4 +24,4 @@ stylesheets[all][] = assets/stylesheets/wappo.css
 scripts[] = assets/javascripts/bootstrap.min.js
 scripts[] = assets/javascripts/wappo.js
 
-
+plugins[panels][layouts] = layouts
