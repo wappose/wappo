@@ -8849,6 +8849,31 @@ button.close {
 .navbar-wappo {
   border: 0;
   background: transparent;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  /* Landscape phones and down */
+}
+@media (max-width: 480px) {
+  /* line 1, ../../src/sass/_navigation.scss */
+  .navbar-wappo {
+    border: 10px solid red;
+  }
+}
+
+/* line 1, ../../src/sass/_header.scss */
+header#header-container {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #eeeeee;
+}
+
+/* line 1, ../../src/sass/_footer.scss */
+footer#footer-container {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #eeeeee;
 }
 
 /* OLD SHIT BELOVE

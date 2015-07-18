@@ -1,7 +1,12 @@
 .navbar-wappo {
     @extend .navbar-default;
+
     border: 0;
     background: transparent;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+    @include respond-to(phone) { border:10px solid red; };
 
     ul.menu {
         @extend .nav;

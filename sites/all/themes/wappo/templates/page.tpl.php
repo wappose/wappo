@@ -1,7 +1,8 @@
 <?php
 $navigation = render($page['navigation']);
 if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
-<header id="header-container" role="heading" class="container header">
+<header id="header-container" role="heading" class="header">
+  <div class="container">
   <div class="row">
     <?php if (!empty($logo) || !empty($site_name)): $navCols = 8; ?>
     <div class="col-sm-4">
@@ -39,10 +40,12 @@ if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
       </nav></div>
     <?php endif; ?>
   </div>
+  </div>
 </header>
 <?php endif; ?>
 
-<div id="main-container" class="container">
+<div id="main-container">
+  <div class="container">
 <?php
   $header = render($page['header']);
   if (!empty($site_slogan) || $header): ?>
@@ -77,9 +80,12 @@ if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
       <?php print render($page['content']); ?>
     </div>
   </section>
-
+</div>
 </div>
 
-<footer id="footer-container" class="footer container">
-    <?php print render($page['footer']); ?>
+
+<footer id="footer-container" class="footer">
+  <div class="container">
+      <?php print render($page['footer']); ?>
+  </div>
 </footer>
