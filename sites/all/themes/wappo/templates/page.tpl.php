@@ -1,3 +1,4 @@
+<div id="page-wrapper">
 <?php
 $navigation = render($page['navigation']);
 if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
@@ -78,3 +79,4 @@ if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
       <?php print render($page['footer']); ?>
   </div>
 </footer>
+</div>

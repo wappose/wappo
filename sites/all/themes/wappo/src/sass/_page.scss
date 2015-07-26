@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    body {
+        height: 100%;
+        #page-wrapper {
+
+            background-color: $page-bg;
+            min-height: 100%;
+
+
+           h1, h2, h3, h4 {
+              font-family: "Georgia","Times New Roman","Times","serif";
+              font-weight: bold;
+              line-height: normal;
+              color: #ff962c;
+            }
+            h1 {
+                font-size: 24pt;
+            }
+            h2 {
+                font-size: 18pt;
+            }
+            h3 {
+                font-size: 16pt;
+            }
+            h4 {
+                font-size: 14pt;
+            }
+            li a,
+            .content span,
+            p {
+                font-family: 'Droid Sans', sans-serif;
+                color: #3B3B3B;
+                font-size: 12pt;
+                line-height: normal;
+
+            }
+            img { max-width: 100%; }
+        }
+
+
+        @import "_navigation";
+        @import "_header";
+        @import "_content";
+        @import "_footer";
+
+    }
+}

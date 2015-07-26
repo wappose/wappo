@@ -1,14 +1,16 @@
 header#header-container {
-    margin-bottom: 20px;
+
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: $gray-lighter;
+    border-bottom: 1px solid $gray-lighter;
+    background-color: $header-bg;
 
     .navbar-brand {
         padding-top: 0;
         padding-bottom: 0;
         height: auto;
 
-    }
+        img { max-width: 190px; }
 
+    }
 }

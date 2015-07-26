@@ -1,6 +1,11 @@
 footer#footer-container {
-    margin-top: 20px;
     padding-bottom: 20px;
-    padding-top: 20px;
-    background-color: $gray-lighter;
+    padding-top: 30px;
+    border-top: 1px solid $gray-lighter;
+    background-color: $footer-bg;
+    .content {
+        p, span {
+            color: invert($text-color);
+        }
+    }
 }
