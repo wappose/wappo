@@ -1,3 +1,20 @@
 .start-page-articles {
 
 }
+
+#main-container {
+    .breadcrumb {
+        margin-bottom: 0;
+        li {
+            font-size: 10pt;
+            a { font-size: 10pt; }
+        }
+    }
+
+    h1.page-header {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 0;
+    }
+
+}

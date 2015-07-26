@@ -3,4 +3,12 @@ header#header-container {
     padding-bottom: 20px;
     padding-top: 20px;
     background-color: $gray-lighter;
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto;
+
+    }
+
 }

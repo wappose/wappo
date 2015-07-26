@@ -9,8 +9,12 @@
         @media (max-width: 767px) {@content; }
     }
     /* Portrait tablet to landscape and desktop */
-    @else if $media == tablet-landscape-desktop {
+    @else if $media == tablet-landscape {
         @media (min-width: 768px) and (max-width: 979px) { @content; }
+    }
+    /* Desktop  */
+    @else if $media == desktop {
+        @media (min-width: 980px) and (max-width: 1199px)  { @content; }
     }
     /* Large desktop */
     @else if $media == large-desktop {

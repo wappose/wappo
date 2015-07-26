@@ -2,45 +2,33 @@
 $navigation = render($page['navigation']);
 if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
 <header id="header-container" role="heading" class="header">
-  <div class="container">
-  <div class="row">
-    <?php if (!empty($logo) || !empty($site_name)): $navCols = 8; ?>
-    <div class="col-sm-4">
-
-    <?php if (!empty($logo)) : ?>
-    <a class="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-    </a>
-    <?php endif; ?>
-
-    <?php if (!empty($site_name)): ?>
-    <a class="name" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-    <?php endif; ?>
-    </div>
-    <?php else : $navCols = 8; endif;
-    ?>
 
     <?php
     if (!empty($navigation)): ?>
-    <div class="col-sm-<?php echo $navCols; ?>">
-      <nav role="navigation" class="navbar navbar-wappo">
-        <div class="container-fluid">
+      <nav role="navigation" class="navbar navbar-default navbar-wappo">
+        <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wappo-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
+ <?php if (!empty($logo)) : ?>
+    <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+    </a>
+<?php endif; ?>
+
+
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="wappo-navbar-collapse-1">
         <?php print render($navigation); ?>
         </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
-      </nav></div>
+      </nav>
     <?php endif; ?>
-  </div>
-  </div>
 </header>
 <?php endif; ?>
 
@@ -61,6 +49,7 @@ if (!empty($navigation) || !empty($logo) || !empty($site_name)): ?>
 
   <section role="article" class="row">
     <div class="col-xs-12">
+      <?php print $breadcrumb; ?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
