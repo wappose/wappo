@@ -24,6 +24,10 @@
             @include respond-to-many(tablet-landscape, desktop, large-desktop) {
                 border-top: 0;
             }
+            a:hover {
+                background-color: transparent;
+                text-decoration: underline;
+            }
         }
     }
 }

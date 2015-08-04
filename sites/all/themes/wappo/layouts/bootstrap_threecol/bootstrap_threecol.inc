@@ -3,7 +3,7 @@
 // Plugin definition
 $plugin = array(
   'title' => t('Three column bootstrap layout'),
-  'category' => t('WAPPO: 3 cols'),
+  'category' => t('WAPPO layouts'),
   'icon' => 'bootstrap_threecol.png',
   'theme' => 'bootstrap_threecol',
   'css' => 'bootstrap_threecol.css',

@@ -20,3 +20,9 @@ function wappo_breadcrumb($variables) {
     }
     return $crumbs;
 }
+
+function wappo_preprocess_page(&$vars) {
+  if(isset($vars['page']['content']['system_main']['no_content'])) {
+    unset($vars['page']['content']['system_main']['no_content']);
+  }
+}

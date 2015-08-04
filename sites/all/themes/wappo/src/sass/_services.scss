@@ -1,0 +1,9 @@
+.view-v-ra-tj-nster {
+
+    .view-content {
+        @extend .row;
+        .views-row {
+            @extend .col-md-6;
+        }
+    }
+}

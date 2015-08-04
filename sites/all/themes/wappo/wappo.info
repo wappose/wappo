@@ -5,7 +5,7 @@ core = 7.x
 
 regions[header]         = 'Top Bar'
 regions[navigation]     = 'Navigation'
-; regions[highlighted]    = 'Highlighted'
+regions[highlighted]    = 'Highlighted'
 ; regions[help]           = 'Help'
 regions[content]        = 'Content'
 ; regions[sidebar_first]  = 'Primary'

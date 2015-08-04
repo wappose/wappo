@@ -12,30 +12,50 @@ html {
               font-family: "Georgia","Times New Roman","Times","serif";
               font-weight: bold;
               line-height: normal;
-              color: #ff962c;
             }
             h1 {
                 font-size: 24pt;
+                color: $h1-color;
+                a.normal {
+                    color: $h1-color;
+                }
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
             }
             h2 {
                 font-size: 18pt;
+                color: $h2-color;
+                a.normal {
+                    color: $h2-color;
+                }
             }
             h3 {
                 font-size: 16pt;
+                color: $h3-color;
+                a.normal {
+                    color: $h3-color;
+                }
             }
             h4 {
                 font-size: 14pt;
+                color: $h4-color;
+                a.normal {
+                    color: $h4-color;
+                }
             }
             li a,
-            .content span,
+            .content span, li,
             p {
                 font-family: 'Droid Sans', sans-serif;
-                color: #3B3B3B;
+                color: $text-color;
                 font-size: 12pt;
                 line-height: normal;
-
+                a.normal {
+                   color: $text-color;
+                }
             }
             img { max-width: 100%; }
+
+
         }
 
 
