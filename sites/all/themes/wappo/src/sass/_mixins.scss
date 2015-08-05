@@ -6,7 +6,7 @@
     }
     /* Landscape phone to portrait tablet */
     @else if $media == tablet-portrait {
-        @media (max-width: 767px) {@content; }
+        @media (min-width: 481px) and (max-width: 767px) {@content; }
     }
     /* Portrait tablet to landscape and desktop */
     @else if $media == tablet-landscape {

@@ -1,9 +1,32 @@
 .view-v-ra-tj-nster {
-
     .view-content {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid $gray-lighter;
         @extend .row;
         .views-row {
-            @extend .col-md-6;
+            @extend .col-md-4;
+            h2 {
+                margin: 0;
+                line-height: 55px;
+            }
+            .services-icon {
+                float: left;
+                font-size: 16px;
+                margin-right: 20px;
+                .fa {
+                    font-size: 50px;
+                    &.fa-3 {
+                        @extend .fa-industry;
+                    }
+                    &.fa-5 {
+                        @extend .fa-briefcase;
+                    }
+                    &.fa-6 {
+                        @extend .fa-cogs;
+                    }
+                }
+            }
         }
     }
 }
