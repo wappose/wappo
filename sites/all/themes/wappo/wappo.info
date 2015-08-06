@@ -16,7 +16,7 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 
-stylesheets[all][] = http://fonts.googleapis.com/css?family=Droid+Sans:400,700
+; stylesheets[all][] = http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic|Oswald:400,700,300|Droid+Sans:400,700&subset=latin,latin-ext
 ; compiled width bootstrap 3
 stylesheets[all][] = assets/stylesheets/wappo.css
 

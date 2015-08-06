@@ -9,7 +9,8 @@ html {
 
 
            h1, h2, h3, h4 {
-              font-family: "Georgia","Times New Roman","Times","serif";
+              font-family: 'Arvo', serif;
+/*              font-family: "Georgia","Times New Roman","Times","serif"; */
               font-weight: bold;
               line-height: normal;
             }
@@ -45,7 +46,8 @@ html {
             li a,
             .content span, li,
             p {
-                font-family: 'Droid Sans', sans-serif;
+                font-family: 'Oswald', sans-serif;
+                /*font-family: 'Droid Sans', sans-serif;*/
                 color: $text-color;
                 font-size: 12pt;
                 line-height: normal;
