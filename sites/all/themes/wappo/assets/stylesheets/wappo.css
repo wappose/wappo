@@ -8798,7 +8798,7 @@ button.close {
 }
 
 /* line 4, ../../src/sass/font-awesome/_core.scss */
-.fa, html body footer#footer-container .content .pane-system-powered-by a {
+.fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -8883,11 +8883,11 @@ button.close {
 }
 
 /* line 14, ../../src/sass/font-awesome/_bordered-pulled.scss */
-.fa.fa-pull-left, html body footer#footer-container .content .pane-system-powered-by a.fa-pull-left {
+.fa.fa-pull-left {
   margin-right: .3em;
 }
 /* line 15, ../../src/sass/font-awesome/_bordered-pulled.scss */
-.fa.fa-pull-right, html body footer#footer-container .content .pane-system-powered-by a.fa-pull-right {
+.fa.fa-pull-right {
   margin-left: .3em;
 }
 
@@ -8903,11 +8903,11 @@ button.close {
 }
 
 /* line 23, ../../src/sass/font-awesome/_bordered-pulled.scss */
-.fa.pull-left, html body footer#footer-container .content .pane-system-powered-by a.pull-left {
+.fa.pull-left {
   margin-right: .3em;
 }
 /* line 24, ../../src/sass/font-awesome/_bordered-pulled.scss */
-.fa.pull-right, html body footer#footer-container .content .pane-system-powered-by a.pull-right {
+.fa.pull-right {
   margin-left: .3em;
 }
 
@@ -9674,9 +9674,7 @@ button.close {
 /* line 141, ../../src/sass/font-awesome/_icons.scss */
 .fa-gears:before,
 .fa-cogs:before,
-html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa.fa-6:before,
-html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon footer#footer-container .content .pane-system-powered-by a.fa-6:before,
-html body footer#footer-container .content .pane-system-powered-by #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon a.fa-6:before {
+html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa.fa-6:before {
   content: "\f085";
 }
 
@@ -9883,7 +9881,7 @@ html body footer#footer-container .content .pane-system-powered-by #main-contain
 }
 
 /* line 184, ../../src/sass/font-awesome/_icons.scss */
-.fa-briefcase:before, html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa.fa-5:before, html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon footer#footer-container .content .pane-system-powered-by a.fa-5:before, html body footer#footer-container .content .pane-system-powered-by #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon a.fa-5:before {
+.fa-briefcase:before, html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa.fa-5:before {
   content: "\f0b1";
 }
 
@@ -11018,7 +11016,7 @@ html body footer#footer-container .content .pane-system-powered-by #main-contain
 }
 
 /* line 443, ../../src/sass/font-awesome/_icons.scss */
-.fa-drupal:before, html body footer#footer-container .content .pane-system-powered-by a:before {
+.fa-drupal:before {
   content: "\f1a9";
 }
 
@@ -11998,7 +11996,7 @@ html body footer#footer-container .content .pane-system-powered-by #main-contain
 }
 
 /* line 667, ../../src/sass/font-awesome/_icons.scss */
-.fa-industry:before, html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa.fa-3:before, html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon footer#footer-container .content .pane-system-powered-by a.fa-3:before, html body footer#footer-container .content .pane-system-powered-by #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon a.fa-3:before {
+.fa-industry:before, html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa.fa-3:before {
   content: "\f275";
 }
 
@@ -12113,7 +12111,7 @@ html body #page-wrapper h4 a.normal {
 html body #page-wrapper li a,
 html body #page-wrapper .content span, html body #page-wrapper li,
 html body #page-wrapper p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   /*font-family: 'Droid Sans', sans-serif;*/
   color: #3b3b3b;
   font-size: 12pt;
@@ -12337,20 +12335,21 @@ html body #main-container .start-page-content p {
 html body #main-container .start-page-articles .views-row {
   margin-bottom: 20px;
   overflow: hidden;
+  max-width: 460px;
 }
-/* line 76, ../../src/sass/_content.scss */
+/* line 77, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-field-thumb {
   position: relative;
   z-index: 10;
 }
-/* line 77, ../../src/sass/_content.scss */
+/* line 78, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-field-thumb img {
   -webkit-box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 87, ../../src/sass/_content.scss */
+/* line 88, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-title {
   position: absolute;
   z-index: 15;
@@ -12362,13 +12361,13 @@ html body #main-container .start-page-articles .views-row .views-field-title {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 97, ../../src/sass/_content.scss */
+/* line 98, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-title h2 {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
   text-align: center;
   margin: 10px;
 }
-/* line 105, ../../src/sass/_content.scss */
+/* line 106, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-view-node {
   float: right;
   background: #58b8d1;
@@ -12382,17 +12381,17 @@ html body #main-container .start-page-articles .views-row .views-field-view-node
   margin: 0 18px 0 6px;
   padding: 5px;
 }
-/* line 117, ../../src/sass/_content.scss */
+/* line 118, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-view-node a {
   color: white;
   font-size: 90%;
 }
-/* line 127, ../../src/sass/_content.scss */
+/* line 128, ../../src/sass/_content.scss */
 html body #main-container .view-kontaktpersoner .view-content {
   margin-top: 30px;
   border-top: 1px solid #eeeeee;
 }
-/* line 131, ../../src/sass/_content.scss */
+/* line 132, ../../src/sass/_content.scss */
 html body #main-container .view-kontaktpersoner .view-content .views-field-picture {
   margin-left: 20px;
 }
@@ -12414,7 +12413,7 @@ html body #main-container .view-v-ra-tj-nster .view-content .views-row .services
   margin-right: 20px;
 }
 /* line 17, ../../src/sass/_services.scss */
-html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa, html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon footer#footer-container .content .pane-system-powered-by a, html body footer#footer-container .content .pane-system-powered-by #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon a {
+html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa {
   font-size: 50px;
 }
 /* line 1, ../../src/sass/_footer.scss */

@@ -10,12 +10,6 @@ footer#footer-container {
                 color: invert($text-color);
             }
         }
-        .pane-system-powered-by {
-            a {
-                @extend .fa;
-                @extend .fa-drupal;
-            }
-        }
     }
 
 }
