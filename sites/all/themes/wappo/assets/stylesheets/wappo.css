@@ -12404,14 +12404,28 @@ html body #main-container .view-v-ra-tj-nster .view-content {
 html body #main-container .view-v-ra-tj-nster .view-content .views-row h2 {
   margin: 0;
   line-height: 55px;
+  /* Landscape phones and down */
+  /* Landscape phones and down */
 }
-/* line 13, ../../src/sass/_services.scss */
+@media (max-width: 480px) {
+  /* line 9, ../../src/sass/_services.scss */
+  html body #main-container .view-v-ra-tj-nster .view-content .views-row h2 {
+    font-size: 16pt;
+  }
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+  /* line 9, ../../src/sass/_services.scss */
+  html body #main-container .view-v-ra-tj-nster .view-content .views-row h2 {
+    line-height: normal;
+  }
+}
+/* line 20, ../../src/sass/_services.scss */
 html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon {
   float: left;
   font-size: 16px;
   margin-right: 20px;
 }
-/* line 17, ../../src/sass/_services.scss */
+/* line 24, ../../src/sass/_services.scss */
 html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa {
   font-size: 50px;
 }
