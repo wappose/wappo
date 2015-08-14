@@ -12400,7 +12400,12 @@ html body #main-container .view-v-ra-tj-nster .view-content {
   padding-top: 20px;
   border-top: 1px solid #eeeeee;
 }
-/* line 9, ../../src/sass/_services.scss */
+/* line 7, ../../src/sass/_services.scss */
+html body #main-container .view-v-ra-tj-nster .view-content .views-row {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+/* line 11, ../../src/sass/_services.scss */
 html body #main-container .view-v-ra-tj-nster .view-content .views-row h2 {
   margin: 0;
   line-height: 55px;
@@ -12408,24 +12413,24 @@ html body #main-container .view-v-ra-tj-nster .view-content .views-row h2 {
   /* Landscape phones and down */
 }
 @media (max-width: 480px) {
-  /* line 9, ../../src/sass/_services.scss */
+  /* line 11, ../../src/sass/_services.scss */
   html body #main-container .view-v-ra-tj-nster .view-content .views-row h2 {
     font-size: 16pt;
   }
 }
 @media (min-width: 980px) and (max-width: 1199px) {
-  /* line 9, ../../src/sass/_services.scss */
+  /* line 11, ../../src/sass/_services.scss */
   html body #main-container .view-v-ra-tj-nster .view-content .views-row h2 {
     line-height: normal;
   }
 }
-/* line 20, ../../src/sass/_services.scss */
+/* line 22, ../../src/sass/_services.scss */
 html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon {
   float: left;
   font-size: 16px;
   margin-right: 20px;
 }
-/* line 24, ../../src/sass/_services.scss */
+/* line 26, ../../src/sass/_services.scss */
 html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa {
   font-size: 50px;
 }

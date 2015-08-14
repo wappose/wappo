@@ -6,6 +6,8 @@
         @extend .row;
         .views-row {
             @extend .col-md-4;
+            margin-bottom: 40px;
+            margin-top: 20px;
             h2 {
                 margin: 0;
                 line-height: 55px;
