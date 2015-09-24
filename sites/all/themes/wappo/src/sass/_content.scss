@@ -44,7 +44,7 @@
 
                 }
                 h1 {
-                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+                    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); */
                     display: table-cell;
                     margin: 0;
                     vertical-align: middle;
@@ -72,52 +72,26 @@
     .start-page-articles {
         .views-row {
             margin-bottom: 20px;
-            overflow: hidden;
             max-width: 460px;
+            position: relative;
             .views-field-field-thumb {
                 img {
-                -webkit-box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
-                box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
-                    -webkit-border-radius: 10px;
-                    border-radius: 10px;
+                    outline: 1px solid #eee;
                 }
-                position: relative;
-                z-index: 10;
-
             }
             .views-field-title {
                 position: absolute;
                 z-index: 15;
-                top: 10px;
-                right: 15px;
-                left: 15px;
-                margin: 0 15px;
+                bottom: 10px;
+                right: 10px;
+                left: 10px;
+                margin: 0 10px;
                 background-color: rgba(255,255,255,0.8);
-                -webkit-border-radius: 5px;
-                border-radius: 5px;
                 h2 {
-                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
                     text-align: center;
                     a {
                     }
                     margin: 10px;
-                }
-            }
-            .views-field-view-node {
-                float: right;
-                background: #58b8d1;
-                -webkit-border-radius: 0 0 3px 3px;
-                -moz-border-radius: 0 0 3px 3px;
-                -ms-border-radius: 0 0 3px 3px;
-                -o-border-radius: 0 0 3px 3px;
-                border-radius: 0 0 3px 3px;
-                display: inline-block;
-                zoom: 1;
-                margin: 0 18px 0 6px;
-                padding: 5px;
-                a {
-                    color: white;
-                    font-size: 90%;
                 }
             }
         }
@@ -136,6 +110,19 @@
     }
 
     @import '_services';
+
+    .view-expertise {
+        .views-field-field-image {
+            text-align: center;
+            img {
+                max-width: 80%;
+            }
+        }
+        h3 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
 
 }
 

@@ -12074,7 +12074,7 @@ html body #page-wrapper h1, html body #page-wrapper h2, html body #page-wrapper 
 html body #page-wrapper h1 {
   font-size: 24pt;
   color: #ff962c;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  /*                text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);*/
 }
 /* line 20, ../../src/sass/_page.scss */
 html body #page-wrapper h1 a.normal {
@@ -12289,7 +12289,7 @@ html body #main-container #page-header #block-block-3 .content {
 }
 /* line 46, ../../src/sass/_content.scss */
 html body #main-container #page-header #block-block-3 .content h1 {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); */
   display: table-cell;
   margin: 0;
   vertical-align: middle;
@@ -12333,64 +12333,34 @@ html body #main-container .start-page-content p {
 /* line 73, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row {
   margin-bottom: 20px;
-  overflow: hidden;
   max-width: 460px;
-}
-/* line 77, ../../src/sass/_content.scss */
-html body #main-container .start-page-articles .views-row .views-field-field-thumb {
   position: relative;
-  z-index: 10;
 }
 /* line 78, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-field-thumb img {
-  -webkit-box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  outline: 1px solid #eee;
 }
-/* line 88, ../../src/sass/_content.scss */
+/* line 82, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-title {
   position: absolute;
   z-index: 15;
-  top: 10px;
-  right: 15px;
-  left: 15px;
-  margin: 0 15px;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+  margin: 0 10px;
   background-color: rgba(255, 255, 255, 0.8);
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
 }
-/* line 98, ../../src/sass/_content.scss */
+/* line 90, ../../src/sass/_content.scss */
 html body #main-container .start-page-articles .views-row .views-field-title h2 {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
   text-align: center;
   margin: 10px;
 }
-/* line 106, ../../src/sass/_content.scss */
-html body #main-container .start-page-articles .views-row .views-field-view-node {
-  float: right;
-  background: #58b8d1;
-  -webkit-border-radius: 0 0 3px 3px;
-  -moz-border-radius: 0 0 3px 3px;
-  -ms-border-radius: 0 0 3px 3px;
-  -o-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px;
-  display: inline-block;
-  zoom: 1;
-  margin: 0 18px 0 6px;
-  padding: 5px;
-}
-/* line 118, ../../src/sass/_content.scss */
-html body #main-container .start-page-articles .views-row .views-field-view-node a {
-  color: white;
-  font-size: 90%;
-}
-/* line 128, ../../src/sass/_content.scss */
+/* line 102, ../../src/sass/_content.scss */
 html body #main-container .view-kontaktpersoner .view-content {
   margin-top: 30px;
   border-top: 1px solid #eeeeee;
 }
-/* line 132, ../../src/sass/_content.scss */
+/* line 106, ../../src/sass/_content.scss */
 html body #main-container .view-kontaktpersoner .view-content .views-field-picture {
   margin-left: 20px;
 }
@@ -12433,6 +12403,19 @@ html body #main-container .view-v-ra-tj-nster .view-content .views-row .services
 /* line 26, ../../src/sass/_services.scss */
 html body #main-container .view-v-ra-tj-nster .view-content .views-row .services-icon .fa {
   font-size: 50px;
+}
+/* line 115, ../../src/sass/_content.scss */
+html body #main-container .view-expertise .views-field-field-image {
+  text-align: center;
+}
+/* line 117, ../../src/sass/_content.scss */
+html body #main-container .view-expertise .views-field-field-image img {
+  max-width: 80%;
+}
+/* line 121, ../../src/sass/_content.scss */
+html body #main-container .view-expertise h3 {
+  text-align: center;
+  margin-bottom: 40px;
 }
 /* line 1, ../../src/sass/_footer.scss */
 html body footer#footer-container {
