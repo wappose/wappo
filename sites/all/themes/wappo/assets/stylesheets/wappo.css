@@ -12405,15 +12405,19 @@ html body #main-container .view-v-ra-tj-nster .view-content .views-row .services
   font-size: 50px;
 }
 /* line 115, ../../src/sass/_content.scss */
-html body #main-container .view-expertise .views-field-field-image {
-  text-align: center;
+html body #main-container .view-expertise .views-row {
+  min-height: 500px;
 }
 /* line 117, ../../src/sass/_content.scss */
-html body #main-container .view-expertise .views-field-field-image img {
+html body #main-container .view-expertise .views-row .views-field-field-image {
+  text-align: center;
+}
+/* line 119, ../../src/sass/_content.scss */
+html body #main-container .view-expertise .views-row .views-field-field-image img {
   max-width: 80%;
 }
-/* line 121, ../../src/sass/_content.scss */
-html body #main-container .view-expertise h3 {
+/* line 123, ../../src/sass/_content.scss */
+html body #main-container .view-expertise .views-row h3 {
   text-align: center;
   margin-bottom: 40px;
 }
